@@ -1,0 +1,54 @@
+@import "_responsive.scss";
+/*----------------------------NUEVA PUBLICACION----------------------------*/
+/*------------------FORMULARIO------------------*/
+.bg-img{
+    padding: 2rem;
+    background-image: url(../fotos/fondo.png);
+    
+}
+.nuevaPublicacion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.nuevaPublicacion__titulo{
+    margin-bottom: 1rem;
+    margin-top: 4rem;
+}
+.formulario{
+    width: 32rem;
+    height: auto;
+    padding: 1rem;
+    box-shadow: 0 1rem 3rem #88BFBF;
+    border-radius: 0.5rem;
+    @include movil{
+            width: 20rem;
+    }
+    &__text{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 1rem;
+        &__input{
+            caret-color: #B8E9E9;
+            width: 100%;
+            height: 2.5rem;
+            font-size: 1rem;
+            padding-left: 1rem;
+        }
+    }
+    &__radio{
+        margin-bottom: 1rem;
+    }
+    &__select{
+        margin-bottom: 1rem;
+        &__input{
+            caret-color: #B8E9E9;
+            height: 2rem;
+            font-size: 1rem;
+            padding-left: 1rem;
+        }
+    }
+    &__textarea{
+        margin-bottom: 1rem;
+    }
+}

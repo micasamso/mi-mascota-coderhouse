@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="../sass/main.css">
+    <title>Gatos</title>
+</head>
+<body>
+<div class="grid-container">
+    <header class="grid-header">
+
+        <!--MENU-->
+        
+            <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="../index.html">MI MASCOTA</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
+                        <a class="nav-link" href="./perros.html">Perros</a>
+                        <a class="nav-link active" href="./gatos.html">Gatos</a>
+                        <a class="nav-link" href="./nuevaPublicacion.html">Nueva publicacion</a>
+                        <a class="nav-link" href="./miPerfil.html">Mi perfil</a>
+                    </div>
+                </div>
+                </div>
+            </nav>
+            </header>
+
+    <aside class="grid-aside filtros">
+                <h2 class="filtros__titulo">Filtros</h2>
+                <form action="" class="filtros__form"></form>
+            
+            <!--ESPECIE-->
+            
+                <label for="formFileMultiple" class="form-label filtros__form__label">Especie</label>
+                <div class="form-check filtros__form__label__check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label filtros__form__label__check" for="flexCheckDefault">Perro</label>
+                </div>
+                <div class="form-check filtros__form__label__check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                    <label class="form-check-label filtros__form__label__check" for="flexCheckChecked">Gato</label>
+                </div>
+            
+            <!--SEXO-->
+            
+            <label for="formFileMultiple" class="form-label filtros__form__label">Sexo</label>
+            <div class="form-check filtros__form__label__check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                <label class="form-check-label filtros__form__label__check" for="flexCheckDefault">Hembra</label>
+            </div>
+            <div class="form-check filtros__form__label__check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                <label class="form-check-label filtros__form__label__check" for="flexCheckChecked">Macho</label>
+            </div>
+            <!--EDAD-->
+            
+            <label for="formFileMultiple" class="form-label filtros__form__label">Edad</label>
+            <div class="form-check filtros__form__label__check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                <label class="form-check-label filtros__form__label__check" for="flexCheckDefault">Cachorro</label>
+            </div>
+            <div class="form-check filtros__form__label__check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                <label class="form-check-label filtros__form__label__check" for="flexCheckChecked">Menor a 5 años</label>
+            </div>
+            <div class="form-check filtros__form__label__check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                <label class="form-check-label filtros__form__label__check" for="flexCheckChecked">Mayor a 5 años</label>
+            </div>
+            <div class="form-check filtros__form__label__check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                <label class="form-check-label filtros__form__label__check" for="flexCheckChecked">Mayor a 10 años</label>
+            </div>
+            
+            <!--TAMAÑO-->
+            
+            <label for="formFileMultiple" class="form-label filtros__form__label">Tamaño</label>
+            <div class="form-check filtros__form__label__check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                <label class="form-check-label filtros__form__label__check" for="flexCheckDefault">Chico</label>
+            </div>
+            <div class="form-check filtros__form__label__check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                <label class="form-check-label filtros__form__label__check" for="flexCheckChecked">Mediano</label>
+            </div>
+            <div class="form-check filtros__form__label__check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                <label class="form-check-label filtros__form__label__check" for="flexCheckChecked">Grande</label>
+            </div>
+    </aside>
+
+
+<section class="grid-section">
+
+    <div class="container">
+        <div class="row g-3">
+            <div class="card hover" style="width: 16rem;">
+                <img src="../fotos/gato01.png" class="card-img-top" alt="Gato">
+                <div class="card-body">
+                    <h5 class="card-title">Malva</h5>
+                    <p class="card-text">Macho - 1 Años - Mediano</p>
+                    <a href="#" class="btn btn-primary">Adoptar</a>
+                </div>
+            </div>
+            
+            <div class="card hover" style="width: 16rem;">
+                <img src="../fotos/gato02.png" class="card-img-top" alt="Gato">
+                <div class="card-body">
+                    <h5 class="card-title">India</h5>
+                    <p class="card-text">Hembra - 5 años -  Mediano</p>
+                    <a href="#" class="btn btn-primary">Adoptar</a>
+                </div>
+            </div>
+
+            <div class="card hover" style="width: 16rem;">
+                <img src="../fotos/gato03.png" class="card-img-top" alt="Gato">
+                <div class="card-body">
+                    <h5 class="card-title">Mia</h5>
+                    <p class="card-text">Hembra - 7 Años - Mediano</p>
+                    <a href="#" class="btn btn-primary">Adoptar</a>
+                </div>
+            </div>
+
+            <div class="card hover" style="width: 16rem;">
+                <img src="../fotos/gato04.png" class="card-img-top" alt="Gato">
+                <div class="card-body">
+                    <h5 class="card-title">Kira</h5>
+                    <p class="card-text">Hembra - 5 meses - Chico</p>
+                    <a href="#" class="btn btn-primary">Adoptar</a>
+                </div>
+            </div>
+
+            <div class="card hover" style="width: 16rem;">
+                <img src="../fotos/gato05.png" class="card-img-top" alt="Gato">
+                <div class="card-body">
+                    <h5 class="card-title">Pancho</h5>
+                    <p class="card-text">Macho - 3 años - British Shorthair - Grande</p>
+                    <a href="#" class="btn btn-primary">Adoptar</a>
+                </div>
+            </div>
+
+            <div class="card hover" style="width: 16rem;">
+                <img src="../fotos/gato06.png" class="card-img-top" alt="Gato">
+                <div class="card-body">
+                    <h5 class="card-title">Linda</h5>
+                    <p class="card-text">Hembra - 2 años - British Shorthair - Grande</p>
+                    <a href="#" class="btn btn-primary">Adoptar</a>
+                </div>
+            </div>
+
+            <div class="card hover" style="width: 16rem;">
+                <img src="../fotos/gato07.png" class="card-img-top" alt="Gato">
+                <div class="card-body">
+                    <h5 class="card-title">Simba</h5>
+                    <p class="card-text">Macho - 4 años - Chico</p>
+                    <a href="#" class="btn btn-primary">Adoptar</a>
+                </div>
+            </div>
+
+            <div class="card hover" style="width: 16rem;">
+                <img src="../fotos/gato08.png" class="card-img-top" alt="Gato">
+                <div class="card-body">
+                    <h5 class="card-title">Puma</h5>
+                    <p class="card-text">Macho - 4 meses - Chico</p>
+                    <a href="#" class="btn btn-primary">Adoptar</a>
+                </div>
+            </div>
+
+            <div class="card hover" style="width: 16rem;">
+                <img src="../fotos/gato09.png" class="card-img-top" alt="Gato">
+                <div class="card-body">
+                    <h5 class="card-title">Chia</h5>
+                    <p class="card-text">Hembra - 2 años - Grande</p>
+                    <a href="#" class="btn btn-primary">Adoptar</a>
+                </div>
+            </div>
+
+            <div class="card hover" style="width: 16rem;">
+                <img src="../fotos/gato10.png" class="card-img-top" alt="Gato">
+                <div class="card-body">
+                    <h5 class="card-title">Pantera</h5>
+                    <p class="card-text">Macho - 3 meses - Chico</p>
+                    <a href="#" class="btn btn-primary">Adoptar</a>
+                </div>
+            </div>
+
+            <div class="card hover" style="width: 16rem;">
+                <img src="../fotos/gato11.png" class="card-img-top" alt="Gato">
+                <div class="card-body">
+                    <h5 class="card-title">Almendra</h5>
+                    <p class="card-text">Hembra - 2 años - Chico</p>
+                    <a href="#" class="btn btn-primary">Adoptar</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<footer class="py-3 footer">
+    <div class="footer__logo border-bottom">
+        <a class="footer__logo__a navbar-brand" href="../index.html">MI MASCOTA</a>
+    </div>
+    <ul class="nav justify-content-center pb-3-mb-3 footer__ul">
+        <li class="nav-item footer__ul__li">
+            <a href="../index.html" class="nav-link px-2 text-muted">Inicio</a>
+        </li>
+        <li class="nav-item footer__ul__li">
+            <a href="./perros.html" class="nav-link px-2 text-muted">Perros</a>
+        </li>
+        <li class="nav-item footer__ul__li">
+            <a href="./gatos.html" class="nav-link px-2 text-muted">Gatos</a>
+        </li>
+        <li class="nav-item footer__ul__li">
+            <a href="./nuevaPublicacion.html" class="nav-link px-2 text-muted">Nueva publicacion</a>
+        </li>
+        <li class="nav-item footer__ul__li">
+            <a href="./miPerfil.html" class="nav-link px-2 text-muted">Mi perfil</a>
+        </li>
+    </ul>
+    <p class="text-center text-muted">© 2021 Coderhouse | Micaela Samso</p>
+</footer>
+                
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+</body>
+</html>

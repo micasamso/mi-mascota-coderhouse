@@ -1,0 +1,15 @@
+@import "_responsive.scss";
+@import "_inicio.scss";
+@import "_perros-gatos";
+@import "_nuevaPublicacion";
+@import "_miPerfil";
+
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #FBE9E7;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    overflow-x: none;
+}

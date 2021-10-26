@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="../sass/main.css">
+    <title>Nueva publicacion</title>
+</head>
+<body class="imgFondo">
+
+    <header>
+
+        <!--MENU-->
+        
+            <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="../index.html">MI MASCOTA</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
+                        <a class="nav-link" href="./perros.html">Perros</a>
+                        <a class="nav-link" href="./gatos.html">Gatos</a>
+                        <a class="nav-link active" href="./nuevaPublicacion.html">Nueva publicacion</a>
+                        <a class="nav-link" href="./miPerfil.html">Mi perfil</a>
+                    </div>
+                </div>
+                </div>
+            </nav>
+            </header>
+
+    <section class="nuevaPublicacion bg-img">
+
+        <!--FORMULARIO NUEVA PUBLICACION-->
+
+        <h1 class="nuevaPublicacion__titulo">NUEVA PUBLICACION</h1>
+
+    <form action="" id="formulario" class="formulario">
+        <fieldset>
+
+<!--FOTOS-->
+
+    <div class="mb-3">
+        <label for="formFileMultiple" class="form-label">Fotos</label>
+        <input class="form-control" type="file" id="formFileMultiple" multiple>
+</div>
+
+
+<!--NOMBRE-->
+
+<div class="mb-3">
+    <label for="formGroupExampleInput" class="form-label">Nombre</label>
+    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Nombre">
+</div>
+
+
+<!--ESPECIE-->
+
+<div>
+    <label for="formGroupExampleInput" class="form-label">Especie</label>
+    <div class="form-check">
+        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+        <label class="form-check-label" for="flexRadioDefault1">Perro</label>
+    </div>
+    <div class="form-check">
+        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+        <label class="form-check-label" for="flexRadioDefault2">Gato</label>
+    </div>
+</div>
+
+
+<!--SEXO-->
+
+<label for="formGroupExampleInput" class="form-label">Sexo</label>
+<select class="form-select" aria-label="Default select example">
+    <option selected>Seleccione una opcion</option>
+    <option value="1">Hembra</option>
+    <option value="2">Macho</option>
+</select> 
+
+<!--EDAD-->
+
+<div class="mb-3">
+    <label for="formGroupExampleInput" class="form-label">Edad</label>
+    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Ej. 4 meses">
+</div>
+
+<!--TAMAÑO-->
+
+<label for="formGroupExampleInput" class="form-label">Tamaño</label>
+<select class="form-select" aria-label="Default select example">
+    <option selected>Seleccione una opcion</option>
+    <option value="1">Chico</option>
+    <option value="2">Mediano</option>
+    <option value="3">Grande</option>
+</select>            
+
+<!--RAZA-->
+
+<div class="mb-3">
+    <label for="formGroupExampleInput" class="form-label">Raza</label>
+    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Ej. Labrador">
+</div>
+
+<!--UBICACION-->
+
+<div class="mb-3">
+    <label for="formGroupExampleInput" class="form-label">Ubicacion</label>
+    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Ej. Belgrano, Buenos Aires">
+</div>
+
+<!--DESCRIPCION-->
+
+<div class="mb-3">
+    <label for="exampleFormControlTextarea1" class="form-label">Descripcion</label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+</div>           
+
+<!--BOTON PUBLICAR-->
+
+<button class="btn btn-primary formulario__btn btn-lg" type="submit">Publicar</button>
+
+
+            </fieldset>
+        </form>
+
+    </section>
+
+
+    <footer class="py-3 footer">
+        <div class="footer__logo border-bottom">
+            <a class="footer__logo__a navbar-brand" href="../index.html">MI MASCOTA</a>
+        </div>
+        <ul class="nav justify-content-center pb-3-mb-3 footer__ul">
+            <li class="nav-item footer__ul__li">
+                <a href="../index.html" class="nav-link px-2 text-muted">Inicio</a>
+            </li>
+            <li class="nav-item footer__ul__li">
+                <a href="./perros.html" class="nav-link px-2 text-muted">Perros</a>
+            </li>
+            <li class="nav-item footer__ul__li">
+                <a href="./gatos.html" class="nav-link px-2 text-muted">Gatos</a>
+            </li>
+            <li class="nav-item footer__ul__li">
+                <a href="./nuevaPublicacion.html" class="nav-link px-2 text-muted">Nueva publicacion</a>
+            </li>
+            <li class="nav-item footer__ul__li">
+                <a href="./miPerfil.html" class="nav-link px-2 text-muted">Mi perfil</a>
+            </li>
+        </ul>
+        <p class="text-center text-muted">© 2021 Coderhouse | Micaela Samso</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+</body>
+</html>

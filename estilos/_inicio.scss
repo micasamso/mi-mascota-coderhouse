@@ -1,0 +1,143 @@
+@import "_responsive.scss";
+/*----------------------------INICIO----------------------------*/
+/*------------------HEADER------------------*/
+
+/*MENU*/
+.navbar{
+    padding: 0%;
+    .container-fluid{
+        background-color: #F2B4AE;
+
+        .navbar-toggler-icon{
+            background-color: #F2B4AE;
+        }
+
+        .navbar-brand{
+            font-weight: 600;
+            font-size: 1.8rem;
+            background-color: #F2B4AE;
+        }
+
+        
+        .collapse{
+            background-color: #F2B4AE;
+
+            .nav-link{
+                background-color: #F2B4AE;
+
+                &:hover{
+                    background-color: #88BFBF;
+                }
+        
+                .navbar-nav{
+                    font-size: 1.5rem;
+                }
+            }
+        }
+    }   
+}
+
+/*LOGO*/
+.logo{
+    margin-left: 4rem;
+    margin-top: 2rem;
+
+    @include movil{
+        margin-left: 0%;
+    }
+
+    &__huella{
+        width: 100%;
+        max-width: 300px;
+        margin-right: 8rem;
+        padding: 1rem;
+    }
+
+    &__nombre{
+        width: 100%;
+        max-width: 700px;
+        padding: 1rem;
+    }
+}
+.intro__foto{
+    width: 100%;
+    max-width: 700px;
+    float: right;
+
+    @include movil{
+        float: none;
+    }
+}
+.intro__parrafo{
+    color: #88BFBF;
+    font-weight: bolder;
+    text-align: left;
+    font-size: 140%;
+    margin: 3rem;
+    @include movil{
+        text-align: none;
+        margin: 1rem;
+        font-size: 100%;
+    }
+    & span{
+        color: #F24162;
+    }
+}
+.info{
+    &__titulo{
+        margin-left: 4rem;
+        color: #F2695C;
+        font-weight: 800;
+
+        @include movil{
+            font-weight: 600;
+            font-size: 2rem;
+            margin-left: none; 
+        }
+    }
+}
+
+.imgPareja{
+    margin-top: 6rem;
+    display: block;
+    margin: auto;
+    width: 100%;
+    max-width: 600px;
+
+    @include movil{
+        max-width: 400px;
+    }
+}
+
+/*FOOTER*/
+.footer{
+    background-color: #F2B4AE;
+    margin-top: 1rem;
+    &__texto{
+        padding-top: 2rem;
+        padding-bottom: 0,5rem;
+        font-weight: 700;
+        background-color: #F2B4AE;
+    }
+    &__logo{
+        display: flex;
+        justify-content: center;
+    background-color: #F2B4AE;
+    &__a{
+        background-color: #F2B4AE;
+        color: black;
+        font-weight: 700;
+    }
+    }
+    &__ul{
+        background-color: #F2B4AE;
+        &__li{
+            .nav-link{
+                background-color: #F2B4AE;
+            }
+        }
+    }
+    .text-center{
+        background-color: #F2B4AE;
+    }
+}

@@ -1,0 +1,28 @@
+/*----------------------------MI PERFIL----------------------------*/
+/*------------------FOTO Y NOMBRE------------------*/
+.perfil{
+
+    &__foto{
+        padding-top: 3rem;
+        display: block;
+        margin: auto;
+        margin-top: 4rem;
+    }
+    &__nombre{
+        text-align: center;
+        margin: 2rem;
+        font-weight: 600;
+    }
+
+}
+/*------------------BOTONES------------------*/
+.col-6{
+    width: 30%;
+
+    .btn{
+        background-color: #B8E9E9;
+        border-color: #B8E9E9;
+        color: black;
+        margin-bottom: 0.8rem;
+    }
+}

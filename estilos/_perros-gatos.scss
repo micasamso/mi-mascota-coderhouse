@@ -1,0 +1,88 @@
+/*----------------------------PERROS Y GATOS----------------------------*/
+.container{
+    padding-top: 2rem;
+    
+    .row{
+        padding: 1.5rem;
+        
+        .card{
+            margin: 1rem;
+            box-shadow: 0.4rem 1rem 1rem grey;
+            
+            .card-img-top{
+                width: 238px;
+                height: 197px;
+            }
+            .card-body{
+                background-color: white;
+                .card-title{
+                    color: #88BFBF;
+                    font-weight: 600;
+                    background-color: white;
+                }
+                .card-text{
+                    background-color: white;
+                }
+            }
+
+            .btn{
+                background-color: #F24162;
+                border-color: #F24162;
+            }
+            
+        }
+        .hover{
+            transition: transform .3s;
+            &:hover{
+                transform: scale(1.1);
+            }
+        }
+    }
+}
+
+/*------------------FILTROS------------------*/
+
+.filtros{
+    width: 40%;
+    height: auto;
+    align-items: center;
+    padding: 1rem;
+    box-shadow: 0 1rem 3rem grey;
+    background-color:#B8E9E9;
+    margin-top: 6rem;
+    border-radius: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    
+
+    @include movil{
+        width: 90%;
+        margin-top: 6rem;
+        border-radius: 1rem;
+    }
+
+    &__titulo{
+        background-color: #B8E9E9;
+        font-weight: 800;
+        color: #F24162;
+
+        @include movil{
+            font-weight: 600;
+            font-size: 2rem;
+        }
+    }
+
+    &__form{
+        background-color:#B8E9E9;
+
+        &__label{
+            background-color: #B8E9E9;
+            font-weight: 600;
+
+            &__check{
+                background-color: #B8E9E9;
+
+            }
+        }
+    }
+}

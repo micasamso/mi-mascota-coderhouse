@@ -1,0 +1,381 @@
+/*----------------------------INICIO----------------------------*/
+/*------------------HEADER------------------*/
+/*MENU*/
+.navbar {
+  padding: 0%;
+}
+
+.navbar .container-fluid {
+  background-color: #F2B4AE;
+}
+
+.navbar .container-fluid .navbar-toggler-icon {
+  background-color: #F2B4AE;
+}
+
+.navbar .container-fluid .navbar-brand {
+  font-weight: 600;
+  font-size: 1.8rem;
+  background-color: #F2B4AE;
+}
+
+.navbar .container-fluid .collapse {
+  background-color: #F2B4AE;
+}
+
+.navbar .container-fluid .collapse .nav-link {
+  background-color: #F2B4AE;
+}
+
+.navbar .container-fluid .collapse .nav-link:hover {
+  background-color: #88BFBF;
+}
+
+.navbar .container-fluid .collapse .nav-link .navbar-nav {
+  font-size: 1.5rem;
+}
+
+/*LOGO*/
+.logo {
+  margin-left: 4rem;
+  margin-top: 2rem;
+}
+
+@media only screen and (max-width: 736px) {
+  .logo {
+    margin-left: 0%;
+  }
+}
+
+.logo__huella {
+  width: 100%;
+  max-width: 300px;
+  margin-right: 8rem;
+  padding: 1rem;
+}
+
+.logo__nombre {
+  width: 100%;
+  max-width: 700px;
+  padding: 1rem;
+}
+
+.intro__foto {
+  width: 100%;
+  max-width: 700px;
+  float: right;
+}
+
+@media only screen and (max-width: 736px) {
+  .intro__foto {
+    float: none;
+  }
+}
+
+.intro__parrafo {
+  color: #88BFBF;
+  font-weight: bolder;
+  text-align: left;
+  font-size: 140%;
+  margin: 3rem;
+}
+
+@media only screen and (max-width: 736px) {
+  .intro__parrafo {
+    text-align: none;
+    margin: 1rem;
+    font-size: 100%;
+  }
+}
+
+.intro__parrafo span {
+  color: #F24162;
+}
+
+.info__titulo {
+  margin-left: 4rem;
+  color: #F2695C;
+  font-weight: 800;
+}
+
+@media only screen and (max-width: 736px) {
+  .info__titulo {
+    font-weight: 600;
+    font-size: 2rem;
+    margin-left: none;
+  }
+}
+
+.imgPareja {
+  margin-top: 6rem;
+  display: block;
+  margin: auto;
+  width: 100%;
+  max-width: 600px;
+}
+
+@media only screen and (max-width: 736px) {
+  .imgPareja {
+    max-width: 400px;
+  }
+}
+
+/*FOOTER*/
+.footer {
+  background-color: #F2B4AE;
+  margin-top: 1rem;
+}
+
+.footer__texto {
+  padding-top: 2rem;
+  padding-bottom: 0,5rem;
+  font-weight: 700;
+  background-color: #F2B4AE;
+}
+
+.footer__logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #F2B4AE;
+}
+
+.footer__logo__a {
+  background-color: #F2B4AE;
+  color: black;
+  font-weight: 700;
+}
+
+.footer__ul {
+  background-color: #F2B4AE;
+}
+
+.footer__ul__li .nav-link {
+  background-color: #F2B4AE;
+}
+
+.footer .text-center {
+  background-color: #F2B4AE;
+}
+
+/*----------------------------PERROS Y GATOS----------------------------*/
+.container {
+  padding-top: 2rem;
+}
+
+.container .row {
+  padding: 1.5rem;
+}
+
+.container .row .card {
+  margin: 1rem;
+  -webkit-box-shadow: 0.4rem 1rem 1rem grey;
+          box-shadow: 0.4rem 1rem 1rem grey;
+}
+
+.container .row .card .card-img-top {
+  width: 238px;
+  height: 197px;
+}
+
+.container .row .card .card-body {
+  background-color: white;
+}
+
+.container .row .card .card-body .card-title {
+  color: #88BFBF;
+  font-weight: 600;
+  background-color: white;
+}
+
+.container .row .card .card-body .card-text {
+  background-color: white;
+}
+
+.container .row .card .btn {
+  background-color: #F24162;
+  border-color: #F24162;
+}
+
+.container .row .hover {
+  -webkit-transition: -webkit-transform .3s;
+  transition: -webkit-transform .3s;
+  transition: transform .3s;
+  transition: transform .3s, -webkit-transform .3s;
+}
+
+.container .row .hover:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+/*------------------FILTROS------------------*/
+.filtros {
+  width: 40%;
+  height: auto;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 1rem;
+  -webkit-box-shadow: 0 1rem 3rem grey;
+          box-shadow: 0 1rem 3rem grey;
+  background-color: #B8E9E9;
+  margin-top: 6rem;
+  border-radius: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media only screen and (max-width: 736px) {
+  .filtros {
+    width: 90%;
+    margin-top: 6rem;
+    border-radius: 1rem;
+  }
+}
+
+.filtros__titulo {
+  background-color: #B8E9E9;
+  font-weight: 800;
+  color: #F24162;
+}
+
+@media only screen and (max-width: 736px) {
+  .filtros__titulo {
+    font-weight: 600;
+    font-size: 2rem;
+  }
+}
+
+.filtros__form {
+  background-color: #B8E9E9;
+}
+
+.filtros__form__label {
+  background-color: #B8E9E9;
+  font-weight: 600;
+}
+
+.filtros__form__label__check {
+  background-color: #B8E9E9;
+}
+
+/*----------------------------NUEVA PUBLICACION----------------------------*/
+/*------------------FORMULARIO------------------*/
+.bg-img {
+  padding: 2rem;
+  background-image: url(../fotos/fondo.png);
+}
+
+.nuevaPublicacion {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nuevaPublicacion__titulo {
+  margin-bottom: 1rem;
+  margin-top: 4rem;
+}
+
+.formulario {
+  width: 32rem;
+  height: auto;
+  padding: 1rem;
+  -webkit-box-shadow: 0 1rem 3rem #88BFBF;
+          box-shadow: 0 1rem 3rem #88BFBF;
+  border-radius: 0.5rem;
+}
+
+@media only screen and (max-width: 736px) {
+  .formulario {
+    width: 20rem;
+  }
+}
+
+.formulario__text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-bottom: 1rem;
+}
+
+.formulario__text__input {
+  caret-color: #B8E9E9;
+  width: 100%;
+  height: 2.5rem;
+  font-size: 1rem;
+  padding-left: 1rem;
+}
+
+.formulario__radio {
+  margin-bottom: 1rem;
+}
+
+.formulario__select {
+  margin-bottom: 1rem;
+}
+
+.formulario__select__input {
+  caret-color: #B8E9E9;
+  height: 2rem;
+  font-size: 1rem;
+  padding-left: 1rem;
+}
+
+.formulario__textarea {
+  margin-bottom: 1rem;
+}
+
+/*----------------------------MI PERFIL----------------------------*/
+/*------------------FOTO Y NOMBRE------------------*/
+.perfil__foto {
+  padding-top: 3rem;
+  display: block;
+  margin: auto;
+  margin-top: 4rem;
+}
+
+.perfil__nombre {
+  text-align: center;
+  margin: 2rem;
+  font-weight: 600;
+}
+
+/*------------------BOTONES------------------*/
+.col-6 {
+  width: 30%;
+}
+
+.col-6 .btn {
+  background-color: #B8E9E9;
+  border-color: #B8E9E9;
+  color: black;
+  margin-bottom: 0.8rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  background-color: #FBE9E7;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  overflow-x: none;
+}
+/*# sourceMappingURL=main.css.map */
