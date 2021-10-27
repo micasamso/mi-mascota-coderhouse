@@ -164,6 +164,7 @@
 /*----------------------------PERROS Y GATOS----------------------------*/
 .container {
   padding-top: 2rem;
+  margin-top: 3rem;
 }
 
 .container .row {
@@ -254,12 +255,11 @@
   background-color: #B8E9E9;
 }
 
-.filtros__form__label {
+.filtros__form__div {
   background-color: #B8E9E9;
-  font-weight: 600;
 }
 
-.filtros__form__label__check {
+.filtros__form__div .form-check-label {
   background-color: #B8E9E9;
 }
 
