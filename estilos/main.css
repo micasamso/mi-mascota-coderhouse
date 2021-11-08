@@ -36,28 +36,36 @@
 }
 
 /*LOGO*/
-.logo {
+.fondo .logo {
   margin-left: 4rem;
-  margin-top: 2rem;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  background-color: transparent;
 }
 
 @media only screen and (max-width: 736px) {
-  .logo {
+  .fondo .logo {
     margin-left: 0%;
   }
 }
 
-.logo__huella {
+.fondo .logo__huella {
+  margin-right: 8rem;
   width: 100%;
   max-width: 300px;
-  margin-right: 8rem;
   padding: 1rem;
+  background-color: transparent;
 }
 
-.logo__nombre {
-  width: 100%;
-  max-width: 700px;
-  padding: 1rem;
+.fondo .logo__nombre {
+  font-size: 8rem;
+  font-weight: 900;
+  color: #F24162;
+  margin-top: 8rem;
+  background-color: transparent;
 }
 
 .intro__foto {
