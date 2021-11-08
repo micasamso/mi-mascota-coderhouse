@@ -352,8 +352,16 @@
 
 .perfil__nombre {
   text-align: center;
-  margin: 2rem;
+  margin-bottom: 1rem;
+  margin-top: 2rem;
   font-weight: 600;
+}
+
+.perfil__mail {
+  text-align: center;
+  margin-bottom: 2rem;
+  margin-top: 0%;
+  font-weight: 500;
 }
 
 /*------------------BOTONES------------------*/
@@ -366,6 +374,10 @@
   border-color: #B8E9E9;
   color: black;
   margin-bottom: 0.8rem;
+}
+
+.col-6 .btn__last {
+  margin-bottom: 4rem;
 }
 
 * {

@@ -11,8 +11,16 @@
     }
     &__nombre{
         text-align: center;
-        margin: 2rem;
+        margin-bottom: 1rem;
+        margin-top: 2rem;
         font-weight: 600;
+        
+    }
+    &__mail{
+        text-align: center;
+        margin-bottom: 2rem;
+        margin-top: 0%;
+        font-weight: 500;
     }
 
 }
@@ -25,5 +33,8 @@
         border-color: #B8E9E9;
         color: black;
         margin-bottom: 0.8rem;
+        &__last{
+            margin-bottom: 4rem;
+        }
     }
 }
