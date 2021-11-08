@@ -162,53 +162,64 @@
 }
 
 /*----------------------------PERROS Y GATOS----------------------------*/
-.container {
-  padding-top: 2rem;
-  margin-top: 3rem;
+.grid-section {
+  margin-top: 4rem;
 }
 
-.container .row {
+.grid-section .titulo__especie {
+  margin-left: 10%;
+  font-weight: 600;
+  font-size: 4rem;
+  color: #F24162;
+}
+
+.grid-section .container {
+  padding-top: 2rem;
+  margin-top: 1rem;
+}
+
+.grid-section .container .row {
   padding: 1.5rem;
 }
 
-.container .row .card {
+.grid-section .container .row .card {
   margin: 1rem;
   -webkit-box-shadow: 0.4rem 1rem 1rem grey;
           box-shadow: 0.4rem 1rem 1rem grey;
 }
 
-.container .row .card .card-img-top {
+.grid-section .container .row .card .card-img-top {
   width: 238px;
   height: 197px;
 }
 
-.container .row .card .card-body {
+.grid-section .container .row .card .card-body {
   background-color: white;
 }
 
-.container .row .card .card-body .card-title {
+.grid-section .container .row .card .card-body .card-title {
   color: #88BFBF;
   font-weight: 600;
   background-color: white;
 }
 
-.container .row .card .card-body .card-text {
+.grid-section .container .row .card .card-body .card-text {
   background-color: white;
 }
 
-.container .row .card .btn {
+.grid-section .container .row .card .btn {
   background-color: #F24162;
   border-color: #F24162;
 }
 
-.container .row .hover {
+.grid-section .container .row .hover {
   -webkit-transition: -webkit-transform .3s;
   transition: -webkit-transform .3s;
   transition: transform .3s;
   transition: transform .3s, -webkit-transform .3s;
 }
 
-.container .row .hover:hover {
+.grid-section .container .row .hover:hover {
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
 }

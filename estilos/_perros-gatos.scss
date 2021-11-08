@@ -1,41 +1,50 @@
 /*----------------------------PERROS Y GATOS----------------------------*/
-.container{
-    padding-top: 2rem;
-    margin-top: 3rem;
+.grid-section{
+    margin-top: 4rem;
+    .titulo__especie{
+        margin-left: 10%;
+        font-weight: 600;
+        font-size: 4rem;
+        color: #F24162;
+    }
+    .container{
+        padding-top: 2rem;
+        margin-top: 1rem;
     
-    .row{
-        padding: 1.5rem;
+        .row{
+            padding: 1.5rem;
         
-        .card{
-            margin: 1rem;
-            box-shadow: 0.4rem 1rem 1rem grey;
+            .card{
+                margin: 1rem;
+                box-shadow: 0.4rem 1rem 1rem grey;
             
-            .card-img-top{
-                width: 238px;
-                height: 197px;
-            }
-            .card-body{
-                background-color: white;
+                .card-img-top{
+                    width: 238px;
+                    height: 197px;
+                }
+                .card-body{
+                    background-color: white;
                 .card-title{
-                    color: #88BFBF;
-                    font-weight: 600;
-                    background-color: white;
+                        color: #88BFBF;
+                        font-weight: 600;
+                        background-color: white;
+                    }
+                    .card-text{
+                        background-color: white;
+                    }
                 }
-                .card-text{
-                    background-color: white;
-                }
-            }
 
-            .btn{
-                background-color: #F24162;
-                border-color: #F24162;
-            }
+                .btn{
+                    background-color: #F24162;
+                    border-color: #F24162;
+                }
             
-        }
-        .hover{
-            transition: transform .3s;
-            &:hover{
-                transform: scale(1.1);
+            }
+            .hover{
+                transition: transform .3s;
+                &:hover{
+                    transform: scale(1.1);
+                }
             }
         }
     }
