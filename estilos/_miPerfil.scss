@@ -1,4 +1,4 @@
-
+@import "_responsive.scss";
 /*----------------------------MI PERFIL----------------------------*/
 /*------------------FOTO Y NOMBRE------------------*/
 .perfil{
@@ -27,6 +27,9 @@
 /*------------------BOTONES------------------*/
 .col-6{
     width: 30%;
+    @include movil{
+        width: 90%;
+    }
 
     .btn{
         background-color: #B8E9E9;

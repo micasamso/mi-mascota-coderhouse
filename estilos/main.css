@@ -417,6 +417,12 @@
   width: 30%;
 }
 
+@media only screen and (max-width: 736px) {
+  .col-6 {
+    width: 90%;
+  }
+}
+
 .col-6 .btn {
   background-color: #B8E9E9;
   border-color: #B8E9E9;
