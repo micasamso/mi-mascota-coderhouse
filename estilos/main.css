@@ -201,6 +201,9 @@
 /*----------------------------PERROS Y GATOS----------------------------*/
 .grid-section {
   margin-top: 4rem;
+  background-image: url(../fotos/descarga.png);
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .grid-section .titulo__especie {
@@ -208,15 +211,18 @@
   font-weight: 600;
   font-size: 4rem;
   color: #F24162;
+  background-color: transparent;
 }
 
 .grid-section .container {
   padding-top: 2rem;
   margin-top: 1rem;
+  background-color: transparent;
 }
 
 .grid-section .container .row {
   padding: 1.5rem;
+  background-color: transparent;
 }
 
 .grid-section .container .row .card {

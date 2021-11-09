@@ -1,18 +1,25 @@
 /*----------------------------PERROS Y GATOS----------------------------*/
 .grid-section{
     margin-top: 4rem;
+    background-image: url(../fotos/descarga.png);
+    margin-left: auto;
+    margin-right: auto;
     .titulo__especie{
         margin-left: 10%;
         font-weight: 600;
         font-size: 4rem;
         color: #F24162;
+        background-color: transparent;
     }
     .container{
         padding-top: 2rem;
         margin-top: 1rem;
+        background-color: transparent;
+        
     
         .row{
             padding: 1.5rem;
+            background-color: transparent;
         
             .card{
                 margin: 1rem;
@@ -63,7 +70,6 @@
     border-radius: 2rem;
     margin-left: auto;
     margin-right: auto;
-    
 
     @include movil{
         width: 90%;
