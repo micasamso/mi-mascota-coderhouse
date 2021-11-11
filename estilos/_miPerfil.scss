@@ -2,31 +2,34 @@
 /*----------------------------MI PERFIL----------------------------*/
 /*------------------FOTO Y NOMBRE------------------*/
 .perfil{
-
+    background-color: transparent;
     &__foto{
         padding-top: 3rem;
         display: block;
         margin: auto;
         margin-top: 4rem;
+        background-color: transparent;
     }
     &__nombre{
         text-align: center;
         margin-bottom: 1rem;
         margin-top: 2rem;
         font-weight: 600;
-        
+        background-color: transparent;
     }
     &__mail{
         text-align: center;
         margin-bottom: 2rem;
         margin-top: 0%;
         font-weight: 500;
+        background-color: transparent;
     }
 
 }
 /*------------------BOTONES------------------*/
 .col-6{
     width: 30%;
+    background-color: transparent;
     @include movil{
         width: 90%;
     }
