@@ -1,9 +1,3 @@
-@import "_responsive.scss";
-@import "_inicio.scss";
-@import "_perros-gatos";
-@import "_nuevaPublicacion";
-@import "_miPerfil";
-
 *{
     margin: 0;
     padding: 0;
@@ -13,3 +7,10 @@
 body{
     overflow-x: none;
 }
+
+@import "_responsive";
+@import "_inicio";
+@import "_perros-gatos";
+@import "_nuevaPublicacion";
+@import "_miPerfil";
+@import "_404";
